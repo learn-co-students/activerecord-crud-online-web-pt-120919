@@ -32,7 +32,7 @@ describe 'Movie' do
       movie.lead = "Keanu Reeves"
       expect(movie.lead).to eq("Keanu Reeves")
     end
-
+#had to change this test
     it 'has an in theaters flag' do
       movie.in_theaters = false
       expect(movie.in_theaters?).to be_falsey
